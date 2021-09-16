@@ -90,6 +90,14 @@ img{
 }
 
 
+.gallery {
+    display: flex;
+    align-items: stretch;
+    align-content: space-around;
+}
 
-
+.gallery img{
+    max-width: 20%;
+    max-height: 20%;
+}
 

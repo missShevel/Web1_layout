@@ -1,0 +1,56 @@
+html{
+
+}
+
+body {
+    background-color: beige;
+    
+}
+
+.grid-container {
+height: 100vh;
+width: 100vw;
+display: grid;
+grid-template-columns: 60% 30%;
+grid-template-rows: 25% 50% 25%;
+grid-template-areas: 'header menu'
+'content menu '
+'footer aside';
+grid-column-gap: 10%;
+
+}
+
+header {
+background-color: aqua;
+padding: 15px;
+
+}
+
+main {
+
+    background-color: none;
+    grid-area: content;
+}
+
+nav {
+    background-color: lightpink;
+    grid-area: menu;
+    
+
+}
+
+aside {
+    background-color: lavenderblush;
+     
+
+}
+
+footer {
+    background-color:aqua;
+    grid-area: footer;
+}
+
+p{
+font-family: 'Courier New', Courier, monospace;
+}
+

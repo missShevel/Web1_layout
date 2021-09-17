@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint .",
+    "prepare": "husky install",
+    "format": "prettier --write .",
+    "stylelint": "stylelint \"**/*.css\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/missShevel/Web1_layout/issues"
   },
-  "homepage": "https://github.com/missShevel/Web1_layout#readme"
+  "homepage": "https://github.com/missShevel/Web1_layout#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-metarhia": "^7.0.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "husky": "^7.0.2",
+    "prettier": "2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  }
 }

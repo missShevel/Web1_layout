@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint .",
+    "lint:check": "eslint .",
     "prepare": "husky install",
+    "format:check": "prettier --check .",
+    "stylelint:check": "stylelint \"**/*.css\"",
     "format": "prettier --write .",
-    "stylelint": "stylelint \"**/*.css\""
+    "lint:fix": "eslint . --fix",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix"
   },
   "repository": {
     "type": "git",

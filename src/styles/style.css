@@ -13,23 +13,10 @@ body {
   grid-column-gap: 10%;
 }
 
-/* .grid-container {
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 60% 30%;
-  grid-template-rows: 25% 50% 25%;
-  grid-template-areas:
-    'header menu'
-    'content menu '
-    'footer aside';
-  grid-column-gap: 10%;
-} */
 
 header {
   background-color: aqua;
   padding: 15px;
-  
 }
 
 main {

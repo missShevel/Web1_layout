@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/missShevel/Web1_layout#readme",
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^6.8.0",
     "eslint-config-metarhia": "^7.0.1",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-sonarjs": "^0.10.0",
